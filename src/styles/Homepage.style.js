@@ -38,8 +38,9 @@ color:white;
 `
 
 export const SearchBar = styled.input `
-margin:0 auto;
 height: 7vh;
+display:block;
+margin: 0 auto;
 outline: none;
 width:600px;
 border-radius: 30px;
@@ -57,8 +58,10 @@ padding-left: 20px;
 `
 
 export const Button = styled.input`
-margin-left: 40%;
+display:block;
+margin: 0 auto;
 margin-top: 2%;
+
 width:100px;
 height:50px;
 background-color:#B6D094;
